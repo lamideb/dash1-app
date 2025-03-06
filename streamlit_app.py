@@ -2,10 +2,10 @@ import psycopg2
 from psycopg2 import OperationalError
 
 # Database connection parameters
-host = "pg-14263e7d-lamze-f101.d.aivencloud.com"
-database = "defaultdb"
-user = "avnadmin"
-password = "AVNS_8zJAiWm3qy_ienDTSDx"
+host = ""
+database = ""
+user = ""
+password = ""
 port = "24724"        # PostgreSQL port
 sslmode = "require"     #"verify-ca"  # You can set to 'verify-full' for full verification
 #sslrootcert = "/home/lamze/tmp/ca_aiven.pem"  # Path to your CA certificate (ca.pem)
