@@ -6,7 +6,7 @@ import seaborn as sns
 # Function to read data from the Excel file instead of PostgreSQL
 def get_data():
     # Path to the Excel file
-    excel_file_path = '/home/dash1-app/spt_a.xlsx'
+    excel_file_path = '/lamideb/dash1-app/spt_a.xlsx'
     
     # Read the data from the Excel file into a pandas DataFrame
     df = pd.read_excel(excel_file_path, engine='openpyxl')
